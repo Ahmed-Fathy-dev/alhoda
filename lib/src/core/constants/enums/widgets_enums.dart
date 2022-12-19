@@ -1,0 +1,4 @@
+enum SType {
+  h,
+  w,
+}

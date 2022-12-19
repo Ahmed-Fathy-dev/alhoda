@@ -1,5 +1,6 @@
-import 'package:alhoda/utilities/logger_util.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+
+import '../utilities/logger_util.dart';
 
 class ObserverLogger extends ProviderObserver {
   @override
