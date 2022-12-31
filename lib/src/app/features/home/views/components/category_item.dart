@@ -26,7 +26,8 @@ class CategoryItem extends StatelessWidget {
           4.0.sBox(SType.h),
           Text(
             catName,
-            style: context.txtTheme.titleMedium,
+            style: context.txtTheme.titleMedium
+                ?.copyWith(fontWeight: FontWeight.w700),
           ),
         ],
       ),

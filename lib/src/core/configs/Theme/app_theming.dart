@@ -24,11 +24,12 @@ class AppThemeData {
         colorScheme: colorScheme,
         textTheme: textTheme,
       ).copyWith(
-        useMaterial3: true,
-        appBarTheme: WidgetAppTheme.appBarTheme(colorScheme),
-        // elevatedButtonTheme: WidgetAppTheme.elevatedButton(colorScheme),
-        // inputDecorationTheme: WidgetAppTheme.inputDecoration(colorScheme)
-      );
+          useMaterial3: true,
+          appBarTheme: WidgetAppTheme.appBarTheme(colorScheme),
+          tabBarTheme: WidgetAppTheme.tabBarTheme(colorScheme)
+          // elevatedButtonTheme: WidgetAppTheme.elevatedButton(colorScheme),
+          // inputDecorationTheme: WidgetAppTheme.inputDecoration(colorScheme)
+          );
 }
 
 

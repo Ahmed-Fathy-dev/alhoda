@@ -3,7 +3,6 @@ import 'package:alhoda/src/core/constants/enums/widgets_enums.dart';
 import 'package:alhoda/src/utilities/extensions_methods/widgets_ex_method.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 
 import '../../../../../core/configs/Routers/route_name.dart';
 import '../../../../../core/constants/Strings/home_strings.dart';
@@ -17,9 +16,6 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      // appBar: AppBar(
-      //     // title: Text('title'),
-      //     ),
       body: _HomeContentBody(),
     );
   }
@@ -63,30 +59,30 @@ class _CategoriesSection extends StatelessWidget {
           crossAxisCount: 2,
           children: [
             CategoryItem(
-              catName: HomeStrings.quraanString,
+              catName: HomeStr.quraanString,
               imgUrl: AppImages.quraanCat,
               onTap: () {
                 context.pushName(RouteName.quraanMainPage);
               },
             ),
             CategoryItem(
-                catName: HomeStrings.hadethString,
+                catName: HomeStr.hadethString,
                 imgUrl: AppImages.hadethCat,
                 onTap: () {}),
             CategoryItem(
-                catName: HomeStrings.prayDatesString,
+                catName: HomeStr.prayDatesString,
                 imgUrl: AppImages.prayTimesCat,
                 onTap: () {}),
             CategoryItem(
-                catName: HomeStrings.zekrString,
+                catName: HomeStr.zekrString,
                 imgUrl: AppImages.azkarCat,
                 onTap: () {}),
             CategoryItem(
-                catName: HomeStrings.qeblaString,
+                catName: HomeStr.qeblaString,
                 imgUrl: AppImages.qeblaCat,
                 onTap: () {}),
             CategoryItem(
-                catName: HomeStrings.settingString,
+                catName: HomeStr.settingString,
                 imgUrl: AppImages.settingsCat,
                 onTap: () {})
           ],

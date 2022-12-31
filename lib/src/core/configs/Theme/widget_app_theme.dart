@@ -3,11 +3,11 @@ part of './app_theming.dart';
 mixin WidgetAppTheme {
   static AppBarTheme appBarTheme(ColorScheme colorScheme) {
     return AppBarTheme(
-      // toolbarHeight: 50,
-      // titleTextStyle: TextStyle(
-      //   fontSize: 20,
-      //   color: colorScheme.onSurface,
-      // ),
+      titleTextStyle: GoogleFonts.reemKufi(
+        fontSize: 24,
+        color: colorScheme.primary,
+      ),
+      centerTitle: true,
       iconTheme: IconThemeData(color: colorScheme.onSurface),
       backgroundColor: Colors.transparent,
       shadowColor: Colors.transparent,
@@ -110,6 +110,21 @@ mixin WidgetAppTheme {
         borderSide: BorderSide(
           color: colorScheme.primary,
         ),
+      ),
+    );
+  }
+
+  static TabBarTheme tabBarTheme(ColorScheme colorScheme) {
+    return TabBarTheme(
+      labelColor: colorScheme.secondary,
+      unselectedLabelColor: colorScheme.secondaryContainer,
+      labelStyle: GoogleFonts.reemKufi(
+        fontSize: 16,
+        color: colorScheme.secondary,
+      ),
+      unselectedLabelStyle: GoogleFonts.reemKufi(
+        fontSize: 14,
+        color: colorScheme.secondaryContainer,
       ),
     );
   }
