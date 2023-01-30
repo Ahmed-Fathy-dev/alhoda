@@ -1,7 +1,7 @@
 import 'package:alhoda/src/app/features/home/views/pages/home_screen.dart';
 import 'package:flutter/material.dart';
 
-import '../../../app/features/home/children/quraan/views/pages/quraan_page.dart';
+import '../../../app/features/home/children/quran/views/pages/quran_page.dart';
 import 'route_name.dart';
 
 class AppRouter {
@@ -13,7 +13,7 @@ class AppRouter {
         );
       case '/${RouteName.quraanMainPage}':
         return MaterialPageRoute(
-          builder: (_) => const QuraanMainPage(),
+          builder: (_) => const QuranMainPage(),
         );
       // case '/${RouteName.}':
       // return MaterialPageRoute(builder: (_) =>const ());

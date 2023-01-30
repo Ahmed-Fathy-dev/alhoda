@@ -33,8 +33,9 @@ class ImageNetViewPI extends StatelessWidget {
   Widget build(BuildContext context) {
     return CachedNetworkImage(
       imageUrl: imgUrl,
-      progressIndicatorBuilder: (context, url, downloadProgress) =>
-          CircularProgressIndicator(value: downloadProgress.progress),
+      fit: BoxFit.fill,
+      progressIndicatorBuilder: (context, url, downloadProgress) => Center(
+          child: CircularProgressIndicator(value: downloadProgress.progress)),
       errorWidget: (context, url, error) =>
           const Center(child: Icon(Icons.error)),
     );

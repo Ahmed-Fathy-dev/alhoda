@@ -1,0 +1,53 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "bookmark": false,
+            "direction": 0,
+            "index": 1,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب 1",
+                    "id": 1
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F1.webp?alt=media&token=78e37d68-a1dd-4e69-a0f7-3073be8d09b5",
+            "sura": {
+                "id": 1,
+                "name": "الفاتحة",
+                "ayat": 7,
+                "place": 0
+            }
+        },
+        {
+            "id": 2,
+            "bookmark": false,
+            "direction": 1,
+            "index": 2,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب 1",
+                    "id": 1
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F2.webp?alt=media&token=76cf4142-c518-4897-a6f9-bc3d89997008",
+            "sura": {
+                "id": 2,
+                "name": "البقرة",
+                "ayat": 286,
+                "place": 1
+            }
+        },
+        {
+            "id": 3,
+            "bookmark": false,
+            "direction": 0,
+            "index": 3,
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F3.webp?alt=media&token=885ac8ae-b7a9-40dd-928d-661301d1d34e"
+        }
+    ]
+}

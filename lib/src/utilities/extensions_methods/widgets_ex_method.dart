@@ -2,6 +2,8 @@ import 'package:flutter/widgets.dart';
 
 import '../../core/constants/enums/widgets_enums.dart';
 
+export '../../core/constants/enums/widgets_enums.dart';
+
 extension CustomSizedBox on double {
   Widget sBox(SType type) {
     double? h;

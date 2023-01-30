@@ -9,6 +9,9 @@ enum AppImages {
   azkarCat(name: 'azkar-cat'),
   qeblaCat(name: 'qebla-cat'),
   settingsCat(name: 'settings-cat'),
+  separator(name: 'separator'),
+  madina(name: 'madina'),
+  mecca(name: 'mecca'),
   ;
 
   final String name;

@@ -27,7 +27,7 @@ class CategoryItem extends StatelessWidget {
           Text(
             catName,
             style: context.txtTheme.titleMedium
-                ?.copyWith(fontWeight: FontWeight.w700),
+                ?.copyWith(fontWeight: FontWeight.w600),
           ),
         ],
       ),

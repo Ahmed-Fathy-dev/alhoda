@@ -62,12 +62,12 @@ class PartModel extends Equatable {
 }
 
 class IndexModel extends Equatable {
-  final int from;
-  final int to;
+  final int? from;
+  final int? to;
 
   const IndexModel({
-    required this.from,
-    required this.to,
+     this.from,
+     this.to,
   });
 
   @override

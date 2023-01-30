@@ -6,7 +6,7 @@ const juzzList = <JuzzModel>[
     name: 'الأول',
     hezb: <HezbModel>[
       HezbModel(
-        id: 1,
+        id: 1, 
         page: 1,
         part: <PartModel>[
           PartModel(
