@@ -15,10 +15,7 @@ class QuranMainPage extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final quranAsync = ref.watch(quranProvier);
-    // ref.listen<>(quranProvier, (previous, next) {
-    //   ref.read(stateQuranNotifier.notifier).getQuranData(data);
-    // });
-
+  
     final tabC = useTabController(initialLength: 3);
     return Scaffold(
       appBar: AppBar(
@@ -51,7 +48,6 @@ class _QuranMainBody extends ConsumerWidget {
   final TabController controller;
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // ref.read(stateQuranNotifier.notifier).getQuranData(data);
     return TabBarView(
       controller: controller,
       children: const [

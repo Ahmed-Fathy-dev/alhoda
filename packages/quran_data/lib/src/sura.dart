@@ -1,7 +1,7 @@
 import 'models/juzz_model.dart';
 import 'models/sura_model.dart';
 
-const sura = <SuraModel>[
+const suraList = <SuraModel>[
   SuraModel(
     id: 1,
     name: 'الفاتحة',

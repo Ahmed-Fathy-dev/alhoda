@@ -1,6 +1,6 @@
 import 'models/page_model.dart';
 
-const pages = <PageModel>[
+const pagesList = <PageModel>[
   PageModel(
     id: 1,
     name: 'الفاتحة',

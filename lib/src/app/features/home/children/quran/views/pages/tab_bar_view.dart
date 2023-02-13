@@ -20,17 +20,16 @@ class ArchiveView extends ConsumerWidget {
         onTap: () {
           ref.read(stateQuranNotifier.notifier).getIndexFromParam(
                 QuranParam(
-                  suraId: sura[i].id,
-                  // filter: 'sura',
+                  suraId: suraList[i].id,
                 ),
               );
           context.push(
             const QuranContentPage(),
           );
         },
-        sura: sura[i],
+        sura: suraList[i],
       ),
-      data: sura,
+      data: suraList,
     );
   }
 }
@@ -45,17 +44,16 @@ class IndexView extends ConsumerWidget {
         onTap: () {
           ref.read(stateQuranNotifier.notifier).getIndexFromParam(
                 QuranParam(
-                  index: pages[i].index,
-                  // filter: 'sura',
+                  index: pagesList[i].index,
                 ),
               );
           context.push(
             const QuranContentPage(),
           );
         },
-        page: pages[i],
+        page: pagesList[i],
       ),
-      data: sura,
+      data: pagesList,
     );
   }
 }
