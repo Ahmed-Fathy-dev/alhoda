@@ -1,7 +1,9 @@
 import 'package:alhoda/src/app/components/custom_list_view.dart';
 import 'package:alhoda/src/app/features/home/children/quran/views/pages/quran_content_page.dart';
 import 'package:alhoda/src/app/features/home/children/quran/views/widgets/archive_item.dart';
+import 'package:alhoda/src/app/features/home/children/quran/views/widgets/juzz_item.dart';
 import 'package:alhoda/src/core/configs/Routers/routes.dart';
+import 'package:alhoda/src/utilities/extensions_methods/app_extensions_m.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:quran_data/quran_data.dart';
@@ -58,11 +60,26 @@ class IndexView extends ConsumerWidget {
   }
 }
 
-class JuzzView extends StatelessWidget {
+class JuzzView extends ConsumerWidget {
   const JuzzView({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return Container();
+  Widget build(BuildContext context, WidgetRef ref) {
+    return Container(
+      // getWidget: (i) => JuzzItem(
+      //   onTap: () {
+      //     ref.read(stateQuranNotifier.notifier).getIndexFromParam(
+      //           QuranParam(
+      //             index: pagesList[i].index,
+      //           ),
+      //         );
+      //     context.push(
+      //       const QuranContentPage(),
+      //     );
+      //   },
+      //   page: pagesList[i],
+      // ),
+      // data: pagesList,
+    );
   }
 }
