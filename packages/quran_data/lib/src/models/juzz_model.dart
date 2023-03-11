@@ -1,17 +1,18 @@
 import 'package:equatable/equatable.dart';
+import 'package:json_annotation/json_annotation.dart';
 
 class JuzzModel extends Equatable {
   final int id;
   final String name;
   final IndexModel indexModel;
-  final List<HezbModel> hezb;
+  final HezbCollection hezbCollection;
   final bool bookmark;
 
   const JuzzModel({
     required this.id,
     required this.name,
     required this.indexModel,
-    required this.hezb,
+    required this.hezbCollection,
     required this.bookmark,
   });
 
@@ -20,15 +21,31 @@ class JuzzModel extends Equatable {
         id,
         name,
         indexModel,
-        hezb,
+        hezbCollection,
         bookmark,
+      ];
+}
+
+class HezbCollection extends Equatable {
+  final HezbModel firstHezb;
+  final HezbModel secondHezb;
+
+  const HezbCollection({
+    required this.firstHezb,
+    required this.secondHezb,
+  });
+
+  @override
+  List<Object?> get props => [
+        firstHezb,
+        secondHezb,
       ];
 }
 
 class HezbModel extends Equatable {
   final int id;
   final int page;
-  final List<PartModel> part;
+  final PartCollection part;
 
   const HezbModel({
     required this.id,
@@ -39,9 +56,27 @@ class HezbModel extends Equatable {
   @override
   List<Object?> get props => [
         id,
-        num,
         page,
         part,
+      ];
+}
+
+class PartCollection extends Equatable {
+  final PartModel quarterHezb;
+  final PartModel halfHezb;
+  final PartModel threeQuartersHezb;
+
+  const PartCollection({
+    required this.quarterHezb,
+    required this.halfHezb,
+    required this.threeQuartersHezb,
+  });
+
+  @override
+  List<Object?> get props => [
+        quarterHezb,
+        halfHezb,
+        threeQuartersHezb,
       ];
 }
 
@@ -66,8 +101,8 @@ class IndexModel extends Equatable {
   final int? to;
 
   const IndexModel({
-     this.from,
-     this.to,
+    this.from,
+    this.to,
   });
 
   @override
