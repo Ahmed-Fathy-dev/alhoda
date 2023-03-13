@@ -28,23 +28,34 @@ class QuranTobStackSheet extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.all(10.0),
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              
+              
               children: [
-                Text("$juzzName",
-                    style:
-                        context.txtTheme.titleMedium?.copyWith(color: Colors.white)),
-                Text(pageNumber.toString().toFarsi(),
-                    style:
-                        context.txtTheme.titleMedium?.copyWith(color: Colors.white)),
-                Text("$suraName",
-                    style:
-                        context.txtTheme.titleMedium?.copyWith(color: Colors.white)),
+                Expanded(
+                  flex: 2,
+                  child: Text("$juzzName",
+                      style:
+                          context.txtTheme.titleMedium?.copyWith(color: Colors.white)),
+                ),
+                Expanded(
+                  flex: 1,
+                  child: Text(pageNumber.toString().toFarsi(),
+                      style:
+                          context.txtTheme.titleMedium?.copyWith(color: Colors.white)),
+                ),
+                
+                Expanded(
+                  flex: 1,
+                  child: Text("$suraName",
+                      style:
+                          context.txtTheme.titleMedium?.copyWith(color: Colors.white)),
+                ),
               ],
             ),
           ),
         ),35.0.sBox(SType.h),
         
-        // const MidStackQuraanSheet()
+        const MidStackQuraanSheet()
       ],
     );
   }
@@ -57,15 +68,18 @@ class MidStackQuraanSheet extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       
-      
-      height: 90,
-      width: 150,
-      // color: Colors.black87.withOpacity(.7),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
-        color: Colors.black87.withOpacity(.6)
+        color: Colors.black87.withOpacity(.5)
       ),
-      child:  ImageAssetsView(imgUrl: AppImages.quranbook,color:  Colors.black87.withOpacity(.6),)
+      height: 140,
+      width: 160,
+      // color: Colors.black87.withOpacity(.7),
+      // decoration: BoxDecoration(
+      //   borderRadius: BorderRadius.circular(10),
+      //   color: Colors.black87.withOpacity(.6)
+      // ),
+      child: const Center(child:  ImageAssetsView(imgUrl: AppImages.quranbook,opacity:  AlwaysStoppedAnimation(.7),hight: 120,width: 150, ))
       );
   }
 }
