@@ -10,13 +10,14 @@ import '../widgets/tabs_widget.dart';
 import 'tab_bar_view.dart';
 
 class QuranMainPage extends HookConsumerWidget {
-  const QuranMainPage({super.key});
+  const QuranMainPage({super.key, this.pageIndex=0,});
 
+  final int pageIndex;
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final quranAsync = ref.watch(quranProvier);
   
-    final tabC = useTabController(initialLength: 3);
+    final tabC = useTabController(initialLength: 3,initialIndex: pageIndex );
     return Scaffold(
       appBar: AppBar(
         title: const Text(

@@ -10,13 +10,14 @@ class ImageAssetsView extends StatelessWidget {
     this.hight,
     this.width,
     this.fit,
+    this.color
   });
 
   final AppImages imgUrl;
   final double? hight;
   final double? width;
   final BoxFit? fit;
-
+  final Color? color;
   @override
   Widget build(BuildContext context) {
     return Image.asset(
@@ -24,7 +25,7 @@ class ImageAssetsView extends StatelessWidget {
       height: hight ?? 55,
       width: width ?? 55,
       fit: fit ?? BoxFit.cover,
+      color: color,
     );
   }
 }
-

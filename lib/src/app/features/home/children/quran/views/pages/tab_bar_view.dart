@@ -4,6 +4,7 @@ import 'package:alhoda/src/app/features/home/children/quran/views/widgets/archiv
 import 'package:alhoda/src/app/features/home/children/quran/views/widgets/juzz_item.dart';
 import 'package:alhoda/src/core/configs/Routers/routes.dart';
 import 'package:alhoda/src/utilities/extensions_methods/app_extensions_m.dart';
+import 'package:alhoda/src/utilities/logger_util.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:quran_data/quran_data.dart';
@@ -65,21 +66,33 @@ class JuzzView extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return Container(
-      // getWidget: (i) => JuzzItem(
-      //   onTap: () {
-      //     ref.read(stateQuranNotifier.notifier).getIndexFromParam(
-      //           QuranParam(
-      //             index: pagesList[i].index,
-      //           ),
-      //         );
-      //     context.push(
-      //       const QuranContentPage(),
-      //     );
-      //   },
-      //   page: pagesList[i],
-      // ),
-      // data: pagesList,
+    return CustomListView(
+      getWidget: (i) => JuzzItem(
+        hezbOnTap: (int hezbPage) {
+          "$hezbPage".logWtf("from Ui  : hezp page");
+          ref.read(stateQuranNotifier.notifier).getIndexFromParam(
+                QuranParam(
+                  page: hezbPage,
+                ),
+              );
+          context.push(
+            const QuranContentPage(),
+          );
+        },
+        juzz: juzzList[i],
+        juzzOnTap: (int juzzPage) {
+          "$juzzPage".logWtf("from Ui  : juzz  Page");
+          ref.read(stateQuranNotifier.notifier).getIndexFromParam(
+                QuranParam(
+                  page: juzzPage ,
+                ),
+              );
+          context.push(
+            const QuranContentPage(),
+          );
+        },
+      ),
+      data: juzzList,
     );
   }
 }

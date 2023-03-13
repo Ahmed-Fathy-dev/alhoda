@@ -26,6 +26,7 @@ class QuranNotifier extends Notifier<QuranState> {
       'hezbId': quranParam.hezbId,
       'part': quranParam.part,
       'suraId': quranParam.suraId,
+      'page':quranParam.page,
     };
 
     if (state.data.isNotEmpty) {
@@ -58,6 +59,13 @@ class QuranNotifier extends Notifier<QuranState> {
           index: state.data.indexWhere(
             (element) => element.juzz?.hezb?.part == paramMap['part'],
           ),
+        );
+        logger.d(paramMap['part'], 'paramMap[part] from provider');
+      } 
+      
+      else if (paramMap['page'] != null) {
+        state = state.copyWith(
+          index:  paramMap['page']!.toInt()-1       
         );
         logger.d(paramMap['part'], 'paramMap[part] from provider');
       }

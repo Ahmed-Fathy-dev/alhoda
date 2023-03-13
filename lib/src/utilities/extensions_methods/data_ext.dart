@@ -69,3 +69,25 @@ extension FilterData on QuranParam {
     return index ?? 0;
   }
 }
+
+extension ToFarsiNumber on String {
+  String toFarsi() {
+    const Map<String, String> numbers = {
+      '0': '٠',
+      '1': '١',
+      '2': '٢',
+      '3': '٣',
+      '4': '٤',
+      '5': '٥',
+      '6': '٦',
+      '7': '۷',
+      '8': '۸',
+      '9': '۹',
+    };
+
+    return replaceAllMapped(
+      RegExp('[0-9]'),
+      (match) => numbers[this[match.start]]!,
+    );
+  }
+}

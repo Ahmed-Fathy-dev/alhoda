@@ -12,6 +12,7 @@ enum AppImages {
   separator(name: 'separator'),
   madina(name: 'madina'),
   mecca(name: 'mecca'),
+  quranbook(name:'quran_icon')
   ;
 
   final String name;

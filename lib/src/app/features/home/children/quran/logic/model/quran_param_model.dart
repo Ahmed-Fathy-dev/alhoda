@@ -7,8 +7,10 @@ class QuranParam extends Equatable {
   final double? part;
   final int? suraId;
   final String? filter;
+  final int? page;
 
-  const QuranParam({
+  const QuranParam( {
+    this.page,
     this.index,
     this.juzzId,
     this.hezbId,
@@ -25,5 +27,6 @@ class QuranParam extends Equatable {
         part,
         suraId,
         filter,
+        page
       ];
 }
