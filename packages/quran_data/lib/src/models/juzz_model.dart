@@ -43,11 +43,13 @@ class HezbCollection extends Equatable {
 }
 
 class HezbModel extends Equatable {
+  final String name;
   final int id;
   final int page;
   final PartCollection part;
 
   const HezbModel({
+    required this.name,
     required this.id,
     required this.page,
     required this.part,
@@ -58,6 +60,7 @@ class HezbModel extends Equatable {
         id,
         page,
         part,
+        name,
       ];
 }
 

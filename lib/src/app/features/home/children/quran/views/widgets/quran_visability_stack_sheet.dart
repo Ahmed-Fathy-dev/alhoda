@@ -39,7 +39,7 @@ class QuranTobStackSheet extends StatelessWidget {
                 ),
                 Expanded(
                   flex: 1,
-                  child: Text(pageNumber.toString().toFarsi(),
+                  child: Text(pageNumber.toString().toArabic(),
                       style: context.txtTheme.titleMedium
                           ?.copyWith(color: Colors.white)),
                 ),

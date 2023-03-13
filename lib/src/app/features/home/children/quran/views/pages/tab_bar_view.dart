@@ -68,6 +68,7 @@ class JuzzView extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return CustomListView(
       getWidget: (i) => JuzzItem(
+
         hezbOnTap: (int hezbPage) {
           "$hezbPage".logWtf("from Ui  : hezp page");
           ref.read(stateQuranNotifier.notifier).getIndexFromParam(
@@ -90,7 +91,10 @@ class JuzzView extends ConsumerWidget {
           context.push(
             const QuranContentPage(),
           );
-        },
+        }, 
+        firstHezbName:juzzList[i].hezbCollection.firstHezb.name,
+        secHezbName: juzzList[i].hezbCollection.secondHezb.name,
+
       ),
       data: juzzList,
     );

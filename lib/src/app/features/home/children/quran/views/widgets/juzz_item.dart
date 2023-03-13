@@ -10,10 +10,14 @@ class JuzzItem extends StatelessWidget {
     required this.juzzOnTap,
     required this.juzz,
     required this.hezbOnTap,
+    required this.firstHezbName,
+    required this.secHezbName,
   });
   final void Function(int) juzzOnTap;
   final JuzzModel juzz;
   final void Function(int) hezbOnTap;
+  final String firstHezbName;
+  final String secHezbName;
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +29,7 @@ class JuzzItem extends StatelessWidget {
             children: [
               InkWell(
                 onTap: () {
-                  juzzOnTap(juzz.id);
+                  juzzOnTap(juzz.hezbCollection.firstHezb.page);
                 },
                 child: Text("الجزء ${juzz.name}",
                     style: context.txtTheme.headlineSmall),
@@ -34,14 +38,14 @@ class JuzzItem extends StatelessWidget {
               // const Divider(),
               HezbCard(
                 hezbOnTab: hezbOnTap,
-                hezbName: 'الحزب الاول',
+                hezbName: firstHezbName,
                 hezb: juzz.hezbCollection.firstHezb,
               ),
               // 10.0.sBox(SType.h),
               // const Divider(),
               HezbCard(
                 hezbOnTab: hezbOnTap,
-                hezbName: 'الحزب الثاني',
+                hezbName: secHezbName,
                 hezb: juzz.hezbCollection.secondHezb,
               )
             ],
@@ -66,6 +70,12 @@ class HezbCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Table(
+      columnWidths: const {
+        0:FlexColumnWidth(1.5),
+        1: FlexColumnWidth(1),
+        2: FlexColumnWidth(1),
+        3:FlexColumnWidth(1)
+      },
         border: const TableBorder(
             top: BorderSide(color: Colors.black45),
             bottom: BorderSide(color: Colors.black45),
@@ -74,26 +84,32 @@ class HezbCard extends StatelessWidget {
         children: [
           TableRow(
             children: [
-              CustomInkWellForTable(
-                  name: hezbName,
-                  style: context.txtTheme.titleMedium,
-                  onTap: () {
+              InkWell(
+                onTap: () {
                     hezbOnTab(hezb.page);
-                  }),
-              
+                  }
+                ,
+                child:  Padding(
+                padding: const EdgeInsets.only(top: 16.0,),
+                child: Center(
+                   child: Text(hezbName, style:context.txtTheme.titleMedium),
+                ),
+                  // twoText: false,
+                  // name: hezbName,
+                  // style: context.txtTheme.titleMedium,
+                  )),
               CustomInkWellForTable(
-                  name:'ربع الحزب',
+                  name: 'ربع',
                   onTap: () {
                     hezbOnTab(hezb.part.quarterHezb.page);
                   }),
-               CustomInkWellForTable(
-                  name: 'نصف الحزب',
+              CustomInkWellForTable(
+                  name: 'نصف',
                   onTap: () {
                     hezbOnTab(hezb.part.halfHezb.page);
                   }),
-             
               CustomInkWellForTable(
-                  name: "اخر الحزب",
+                  name: "ثلاثة أرباع",
                   onTap: () {
                     hezbOnTab(hezb.part.threeQuartersHezb.page);
                   })
@@ -109,21 +125,31 @@ class CustomInkWellForTable extends StatelessWidget {
     required this.name,
     required this.onTap,
     this.icon,
-    this.style,
+    this.style,  
   });
   final String name;
   final void Function()? onTap;
   final IconData? icon;
   final TextStyle? style;
+  
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: onTap,
       child: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
         child: Center(
-          child: Text(name, style: style ?? context.txtTheme.titleSmall),
+          child: Column(
+            children: [
+              Text(name, style: style ?? context.txtTheme.bodySmall),
+
+            
+                Text("الحزب", style: style ?? context.txtTheme.titleSmall)
+              
+              
+            ],
+          ),
         ),
       ),
     );

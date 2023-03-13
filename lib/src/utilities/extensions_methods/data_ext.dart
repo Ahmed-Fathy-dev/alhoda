@@ -70,8 +70,8 @@ extension FilterData on QuranParam {
   }
 }
 
-extension ToFarsiNumber on String {
-  String toFarsi() {
+extension ToArabicNumber on String {
+  String toArabic() {
     const Map<String, String> numbers = {
       '0': '٠',
       '1': '١',

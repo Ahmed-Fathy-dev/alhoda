@@ -7,7 +7,7 @@
             "index": 1,
             "juzz": {
                 "hezb": {
-                    "name": "الحزب 1",
+                    "name": "الحزب الاول",
                     "id": 1
                 },
                 "id": 1,
@@ -16,7 +16,7 @@
             "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F1.webp?alt=media&token=78e37d68-a1dd-4e69-a0f7-3073be8d09b5",
             "sura": {
                 "id": 1,
-                "name": "الفاتحة",
+                "name": "الفَاتِحَة",
                 "ayat": 7,
                 "place": 0
             }
@@ -28,7 +28,7 @@
             "index": 2,
             "juzz": {
                 "hezb": {
-                    "name": "الحزب 1",
+                    "name": "الحزب الاول",
                     "id": 1
                 },
                 "id": 1,
@@ -37,7 +37,7 @@
             "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F2.webp?alt=media&token=76cf4142-c518-4897-a6f9-bc3d89997008",
             "sura": {
                 "id": 2,
-                "name": "البقرة",
+                "name": "البَقَرَة",
                 "ayat": 286,
                 "place": 1
             }
@@ -47,7 +47,1482 @@
             "bookmark": false,
             "direction": 0,
             "index": 3,
-            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F3.webp?alt=media&token=885ac8ae-b7a9-40dd-928d-661301d1d34e"
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الاول",
+                    "id": 1
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F3.webp?alt=media&token=885ac8ae-b7a9-40dd-928d-661301d1d34e",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 4,
+            "bookmark": false,
+            "direction": 1,
+            "index": 4,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الاول",
+                    "id": 1
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F4.webp?alt=media&token=d4925ceb-4ce7-45ba-acbe-652c7bba96db",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 5,
+            "bookmark": false,
+            "direction": 0,
+            "index": 5,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الاول",
+                    "id": 1
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F5.webp?alt=media&token=ac45d064-1183-42b4-9170-68059bbf6fa9",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 6,
+            "bookmark": false,
+            "direction": 1,
+            "index": 6,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الاول",
+                    "id": 1
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F6.webp?alt=media&token=7324bdea-5bf3-44cd-95f3-f6b40bc2c4cf",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 7,
+            "bookmark": false,
+            "direction": 0,
+            "index": 7,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الاول",
+                    "id": 1
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F7.webp?alt=media&token=e136728f-64fc-4479-b8a5-b426b09868db",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 8,
+            "bookmark": false,
+            "direction": 1,
+            "index": 8,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الاول",
+                    "id": 1
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F8.webp?alt=media&token=8629f8d2-5125-400c-938e-e7d570ca47e1",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 9,
+            "bookmark": false,
+            "direction": 0,
+            "index": 9,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الاول",
+                    "id": 1
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F9.webp?alt=media&token=5fa695f5-0a49-48c0-b7e2-fff320b6f7be",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 10,
+            "bookmark": false,
+            "direction": 1,
+            "index": 10,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الاول",
+                    "id": 1
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F10.webp?alt=media&token=546597de-0340-4351-a94f-d7aacf9ab6ce",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 11,
+            "bookmark": false,
+            "direction": 0,
+            "index": 11,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثاني",
+                    "id": 2
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F11.webp?alt=media&token=be9b2812-7ea8-4db6-bd22-d1bba0c8d4b6",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 12,
+            "bookmark": false,
+            "direction": 1,
+            "index": 12,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثاني",
+                    "id": 2
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F12.webp?alt=media&token=d3b7354a-8f11-4c88-8eb7-df1c697ee624",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 13,
+            "bookmark": false,
+            "direction": 0,
+            "index": 13,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثاني",
+                    "id": 2
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F13.webp?alt=media&token=b503998f-46fd-4baa-9884-607b98fbde4e",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 14,
+            "bookmark": false,
+            "direction": 1,
+            "index": 14,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثاني",
+                    "id": 2
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F14.webp?alt=media&token=724edebb-fa2f-4636-bff5-478a5ece8c8d",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 15,
+            "bookmark": false,
+            "direction": 0,
+            "index": 15,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثاني",
+                    "id": 2
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F15.webp?alt=media&token=96fa7ba4-01cb-46b2-b86c-4fd08d1731d5",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 16,
+            "bookmark": false,
+            "direction": 1,
+            "index": 16,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثاني",
+                    "id": 2
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F16.webp?alt=media&token=523ceacc-5acb-47ce-a104-19d6bf3483c9",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 17,
+            "bookmark": false,
+            "direction": 0,
+            "index": 17,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثاني",
+                    "id": 2
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F17.webp?alt=media&token=aad555cf-a206-47a1-bb8b-029862624a30",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 18,
+            "bookmark": false,
+            "direction": 1,
+            "index": 18,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثاني",
+                    "id": 2
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F18.webp?alt=media&token=f1e1e7be-3611-4a18-ae53-fa2299404025",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 19,
+            "bookmark": false,
+            "direction": 0,
+            "index": 19,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثاني",
+                    "id": 2
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F19.webp?alt=media&token=20eadbec-3f98-4f74-b9d7-5e848341f8c3",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 20,
+            "bookmark": false,
+            "direction": 1,
+            "index": 20,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثاني",
+                    "id": 2
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F20.webp?alt=media&token=f4328076-f340-4efd-ba62-fee245c934ef",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 21,
+            "bookmark": false,
+            "direction": 0,
+            "index": 21,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثاني",
+                    "id": 2
+                },
+                "id": 1,
+                "name": "الجزء الأول"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F21.webp?alt=media&token=89cda693-f404-41ba-aee0-dab832fcb909",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        }
+        ,{
+            "id": 22,
+            "bookmark": false,
+            "direction": 1,
+            "index": 22,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثالث",
+                    "id": 3
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F22.webp?alt=media&token=03590b5c-0d9e-4059-b48e-c267a46cbde5",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 23,
+            "bookmark": false,
+            "direction": 0,
+            "index": 23,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثالث",
+                    "id": 3
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F23.webp?alt=media&token=13acf2a5-a546-4c94-9579-375817bcb5a4",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 24,
+            "bookmark": false,
+            "direction": 1,
+            "index": 24,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثالث",
+                    "id": 3
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F24.webp?alt=media&token=2a24b6da-32a7-4dd0-9890-36bd9fe9aad2",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 25,
+            "bookmark": false,
+            "direction": 0,
+            "index": 25,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثالث",
+                    "id": 3
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F25.webp?alt=media&token=be92bab9-9b41-4599-b416-8f99d689db82",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 26,
+            "bookmark": false,
+            "direction": 1,
+            "index": 26,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثالث",
+                    "id": 3
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F26.webp?alt=media&token=64618575-e888-4d08-8343-a181a7fa8e10",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 27,
+            "bookmark": false,
+            "direction": 0,
+            "index": 27,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثالث",
+                    "id": 3
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F27.webp?alt=media&token=9a606dc8-5f9c-4379-a153-4466f1c14cd8",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 28,
+            "bookmark": false,
+            "direction": 1,
+            "index": 28,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثالث",
+                    "id": 3
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F28.webp?alt=media&token=849ca6e8-3bfc-4d93-9301-0d6de079f584",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 29,
+            "bookmark": false,
+            "direction": 0,
+            "index": 29,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثالث",
+                    "id": 3
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F29.webp?alt=media&token=7ed2878a-e5a7-4941-b79f-28590ae246fa",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 30,
+            "bookmark": false,
+            "direction": 1,
+            "index": 30,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثالث",
+                    "id": 3
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F30.webp?alt=media&token=b4d958ac-814f-4c13-999a-869f9f42aa4d",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 31,
+            "bookmark": false,
+            "direction": 0,
+            "index": 31,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثالث",
+                    "id": 3
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F31.webp?alt=media&token=c1be7b82-a0f2-4999-b067-fcd4612d41a4",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 32,
+            "bookmark": false,
+            "direction": 1,
+            "index": 32,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الرابع",
+                    "id": 4
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F32.webp?alt=media&token=c53c1bcc-d660-48b0-8086-a8b7b452a1c2",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 33,
+            "bookmark": false,
+            "direction": 0,
+            "index": 33,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الرابع",
+                    "id": 4
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F33.webp?alt=media&token=9df5ff4d-d08d-4bed-812c-23641de2b331",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 34,
+            "bookmark": false,
+            "direction": 1,
+            "index": 34,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الرابع",
+                    "id": 4
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F34.webp?alt=media&token=8de821b6-b11b-4e75-98cf-7987e5ebfc65",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 35,
+            "bookmark": false,
+            "direction": 0,
+            "index": 35,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الرابع",
+                    "id": 4
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F35.webp?alt=media&token=616cd65f-4556-4a00-b1e2-01bc9b5c85de",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 36,
+            "bookmark": false,
+            "direction": 1,
+            "index": 36,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الرابع",
+                    "id": 4
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F36.webp?alt=media&token=08d9fe40-fdc9-4ea7-98bc-04ea933b62b3",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 37,
+            "bookmark": false,
+            "direction": 0,
+            "index": 37,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الرابع",
+                    "id": 4
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F37.webp?alt=media&token=d9c78815-65d7-4728-b06d-152c7f4846bb",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 38,
+            "bookmark": false,
+            "direction": 1,
+            "index": 38,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الرابع",
+                    "id": 4
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F38.webp?alt=media&token=d8d59671-0115-4dbc-a0e3-0542657821cd",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 39,
+            "bookmark": false,
+            "direction": 0,
+            "index": 39,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الرابع",
+                    "id": 4
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F39.webp?alt=media&token=1c3b3c0f-5694-4081-8922-a66566c68de5",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 40,
+            "bookmark": false,
+            "direction": 1,
+            "index": 40,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الرابع",
+                    "id": 4
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F40.webp?alt=media&token=6f66db29-11de-4da0-8cec-ff5712a72cbd",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 41,
+            "bookmark": false,
+            "direction": 0,
+            "index": 41,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الرابع",
+                    "id": 4
+                },
+                "id": 2,
+                "name": "الجزء الثاني"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F41.webp?alt=media&token=be546f27-8328-412f-a597-79193b2e4150",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 42,
+            "bookmark": false,
+            "direction": 1,
+            "index": 42,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الخامس",
+                    "id": 5
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F42.webp?alt=media&token=5aed84fa-ec23-4b13-8f0e-1293a29e36f8",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 43,
+            "bookmark": false,
+            "direction": 0,
+            "index": 43,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الخامس",
+                    "id": 5
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F43.webp?alt=media&token=dd02acd5-618d-4377-8398-1a2b00afa1b8",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 44,
+            "bookmark": false,
+            "direction": 1,
+            "index": 44,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الخامس",
+                    "id": 5
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F44.webp?alt=media&token=78d58ed0-94a2-4916-be64-38e75e0e693c",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 45,
+            "bookmark": false,
+            "direction": 0,
+            "index": 45,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الخامس",
+                    "id": 5
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F45.webp?alt=media&token=f8f2c0b4-5c42-4e7c-b870-6297ee75d33d",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 46,
+            "bookmark": false,
+            "direction": 1,
+            "index": 46,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الخامس",
+                    "id": 5
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F46.webp?alt=media&token=a06087af-0f66-4ed9-a997-0d93b130fa4b",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 47,
+            "bookmark": false,
+            "direction": 0,
+            "index": 47,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الخامس",
+                    "id": 5
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F47.webp?alt=media&token=0d5410d8-6d4b-4ed2-a3f0-aa2520f43573",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 48,
+            "bookmark": false,
+            "direction": 1,
+            "index": 48,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الخامس",
+                    "id": 5
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F48.webp?alt=media&token=6877f6bb-306a-4ed1-b167-2537e990e6df",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 49,
+            "bookmark": false,
+            "direction": 0,
+            "index": 49,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الخامس",
+                    "id": 5
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F49.webp?alt=media&token=91a1ff42-0699-41fc-911a-267c00ed58b0",
+            "sura": {
+                "id": 2,
+                "name": "البَقَرَة",
+                "ayat": 286,
+                "place": 1
+            }
+        },{
+            "id": 50,
+            "bookmark": false,
+            "direction": 1,
+            "index": 50,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الخامس",
+                    "id": 5
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F50.webp?alt=media&token=f650c008-ad8c-4372-8513-518377a41795",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 51,
+            "bookmark": false,
+            "direction": 0,
+            "index": 51,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السادس",
+                    "id": 6
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F51.webp?alt=media&token=4017c843-0364-4d92-9524-b3c9970e2226",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 52,
+            "bookmark": false,
+            "direction": 1,
+            "index": 52,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السادس",
+                    "id": 6
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F52.webp?alt=media&token=6e6efbf6-9161-4f5c-af7c-8707b9bb6257",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 53,
+            "bookmark": false,
+            "direction": 0,
+            "index": 53,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السادس",
+                    "id": 6
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F53.webp?alt=media&token=70378088-e746-4cbb-87c8-eccdc5976395",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 54,
+            "bookmark": false,
+            "direction": 1,
+            "index": 54,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السادس",
+                    "id": 6
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F54.webp?alt=media&token=5b92dd0d-8ac7-4e48-ac1f-e84297be2fba",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 55,
+            "bookmark": false,
+            "direction": 0,
+            "index": 55,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السادس",
+                    "id": 6
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F55.webp?alt=media&token=e3570fde-7bd9-4c49-9c3e-8c693f390199",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 56,
+            "bookmark": false,
+            "direction": 1,
+            "index": 56,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السادس",
+                    "id": 6
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F56.webp?alt=media&token=5d68f5a3-e26a-492b-8c59-c491a64123e5",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 57,
+            "bookmark": false,
+            "direction": 0,
+            "index": 57,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السادس",
+                    "id": 6
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F57.webp?alt=media&token=eadd2c5c-ed79-45c5-b799-e631fd97cf00",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 58,
+            "bookmark": false,
+            "direction": 1,
+            "index": 58,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السادس",
+                    "id": 6
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F58.webp?alt=media&token=0c1d1dd8-9cdd-48e4-8033-b0cba9b717cc",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 59,
+            "bookmark": false,
+            "direction": 0,
+            "index": 59,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السادس",
+                    "id": 6
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F59.webp?alt=media&token=06820e7a-7d5f-4cab-b546-018da4f131c8",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 60,
+            "bookmark": false,
+            "direction": 1,
+            "index": 60,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السادس",
+                    "id": 6
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F60.webp?alt=media&token=039c91c9-cd50-4fd4-9253-875e14cb6d2e",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 61,
+            "bookmark": false,
+            "direction": 0,
+            "index": 61,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السادس",
+                    "id": 6
+                },
+                "id": 3,
+                "name": "الجزء الثالث"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F61.webp?alt=media&token=50f6e997-6d90-4fbb-8032-272083b648c9",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 62,
+            "bookmark": false,
+            "direction": 1,
+            "index": 62,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السابع",
+                    "id": 7
+                },
+                "id": 4,
+                "name": "الجزء الرابع"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F62.webp?alt=media&token=037c1438-fe19-4fb2-b921-6fa5837acefe",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 63,
+            "bookmark": false,
+            "direction": 0,
+            "index": 63,
+            "juzz":{
+                "hezb": {
+                    "name": "الحزب السابع",
+                    "id": 7
+                },
+                "id": 4,
+                "name": "الجزء الرابع"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F63.webp?alt=media&token=ea9e750e-af92-4fc3-a577-e8d8afcf05d0",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 64,
+            "bookmark": false,
+            "direction": 1,
+            "index": 64,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السابع",
+                    "id": 7
+                },
+                "id": 4,
+                "name": "الجزء الرابع"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F64.webp?alt=media&token=c9667fd8-260f-4ea9-95d9-28609d1a39eb",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 65,
+            "bookmark": false,
+            "direction": 0,
+            "index": 65,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السابع",
+                    "id": 7
+                },
+                "id": 4,
+                "name": "الجزء الرابع"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F65.webp?alt=media&token=3fde459c-a89c-4580-bce1-11d2a938d3c5",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 66,
+            "bookmark": false,
+            "direction": 1,
+            "index": 66,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السابع",
+                    "id": 7
+                },
+                "id": 4,
+                "name": "الجزء الرابع"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F66.webp?alt=media&token=4cb01a2d-87f2-4ed6-babf-a8a52eb40bb4",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 67,
+            "bookmark": false,
+            "direction": 0,
+            "index": 67,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السابع",
+                    "id": 7
+                },
+                "id": 4,
+                "name": "الجزء الرابع"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F67.webp?alt=media&token=1e779308-d84f-453b-985c-f263772b89b8",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 68,
+            "bookmark": false,
+            "direction": 1,
+            "index": 68,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السابع",
+                    "id": 7
+                },
+                "id": 4,
+                "name": "الجزء الرابع"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F68.webp?alt=media&token=0e49f65d-5084-4ffc-a54c-a02942098ac1",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 69,
+            "bookmark": false,
+            "direction": 0,
+            "index": 69,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السابع",
+                    "id": 7
+                },
+                "id": 4,
+                "name": "الجزء الرابع"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F69.webp?alt=media&token=494244b5-5e12-40a9-bb36-53596d8423b5",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 70,
+            "bookmark": false,
+            "direction": 1,
+            "index": 70,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السابع",
+                    "id": 7
+                },
+                "id": 4,
+                "name": "الجزء الرابع"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F70.webp?alt=media&token=0d2f8876-4472-47d9-a2d5-e247aaa052d7",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 71,
+            "bookmark": false,
+            "direction": 0,
+            "index": 71,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب السابع",
+                    "id": 7
+                },
+                "id": 4,
+                "name": "الجزء الرابع"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F71.webp?alt=media&token=65f99419-5dfd-4716-aabd-f5f31b5d3729",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 72,
+            "bookmark": false,
+            "direction": 1,
+            "index": 72,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثامن",
+                    "id": 8
+                },
+                "id": 4,
+                "name": "الجزء الرابع"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F72.webp?alt=media&token=60efb752-b045-41e0-9eb5-3fd7de286ab3",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 73,
+            "bookmark": false,
+            "direction": 0,
+            "index": 73,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثامن",
+                    "id": 8
+                },
+                "id": 4,
+                "name": "الجزء الرابع"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F73.webp?alt=media&token=76a18d82-0a5f-4fc9-8f48-6fe58667fbf1",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 74,
+            "bookmark": false,
+            "direction": 1,
+            "index": 74,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثامن",
+                    "id": 8
+                },
+                "id": 4,
+                "name": "الجزء الرابع"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F74.webp?alt=media&token=d95d9171-35ef-409a-9b88-3cfd6761dba4",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 75,
+            "bookmark": false,
+            "direction": 0,
+            "index": 75,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثامن",
+                    "id": 8
+                },
+                "id": 4,
+                "name": "الجزء الرابع"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F75.webp?alt=media&token=7e7e5a31-c2a0-4c6c-8c58-38d5cf8c47db",
+            "sura":{
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
+        },{
+            "id": 76,
+            "bookmark": false,
+            "direction": 1,
+            "index": 76,
+            "juzz": {
+                "hezb": {
+                    "name": "الحزب الثامن",
+                    "id": 8
+                },
+                "id": 4,
+                "name": "الجزء الرابع"
+            },
+            "page": "https://firebasestorage.googleapis.com/v0/b/alhoda-e844b.appspot.com/o/quran%2F76.webp?alt=media&token=f88128d9-b8b7-4989-b5e8-637abb36d598",
+            "sura": {
+                "id": 3,
+                "name": "آل عِمرَان",
+                "ayat": 200,
+                "place": 1
+            }
         }
     ]
 }
