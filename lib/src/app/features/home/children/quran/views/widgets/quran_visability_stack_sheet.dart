@@ -6,6 +6,7 @@ import 'package:alhoda/src/utilities/extensions_methods/app_extensions_m.dart';
 import 'package:alhoda/src/utilities/extensions_methods/data_ext.dart';
 import 'package:alhoda/src/utilities/extensions_methods/widgets_ex_method.dart';
 import 'package:flutter/material.dart';
+import 'dart:math' as math;
 
 import '../../../../../../../core/configs/Routers/route_name.dart';
 
@@ -14,11 +15,12 @@ class QuranTobStackSheet extends StatelessWidget {
       {super.key,
       required this.juzzName,
       required this.pageNumber,
-      required this.suraName});
+      required this.suraName, required this.isodd});
 
   final String? juzzName;
   final int pageNumber;
   final String? suraName;
+  final bool isodd;
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -28,63 +30,60 @@ class QuranTobStackSheet extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.all(10.0),
             child: Row(
-              
-              
               children: [
                 Expanded(
                   flex: 2,
                   child: Text("$juzzName",
-                      style:
-                          context.txtTheme.titleMedium?.copyWith(color: Colors.white)),
+                      style: context.txtTheme.titleMedium
+                          ?.copyWith(color: Colors.white)),
                 ),
                 Expanded(
                   flex: 1,
                   child: Text(pageNumber.toString().toFarsi(),
-                      style:
-                          context.txtTheme.titleMedium?.copyWith(color: Colors.white)),
+                      style: context.txtTheme.titleMedium
+                          ?.copyWith(color: Colors.white)),
                 ),
-                
                 Expanded(
                   flex: 1,
-                  child: Text("$suraName",
-                      style:
-                          context.txtTheme.titleMedium?.copyWith(color: Colors.white)),
+                  child: Text("سورة" "  $suraName",
+                      style: context.txtTheme.titleMedium
+                          ?.copyWith(color: Colors.white)),
                 ),
               ],
             ),
           ),
-        ),35.0.sBox(SType.h),
-        
-        const MidStackQuraanSheet()
+        ),
+        35.0.sBox(SType.h),
+         MidStackQuraanSheet(isodd: isodd)
       ],
     );
   }
 }
 
 class MidStackQuraanSheet extends StatelessWidget {
-  const MidStackQuraanSheet({super.key});
-
+  const MidStackQuraanSheet({super.key, required this.isodd});
+  final bool isodd;
   @override
   Widget build(BuildContext context) {
     return Container(
-      
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(10),
-        color: Colors.black87.withOpacity(.5)
-      ),
-      height: 140,
-      width: 160,
-      // color: Colors.black87.withOpacity(.7),
-      // decoration: BoxDecoration(
-      //   borderRadius: BorderRadius.circular(10),
-      //   color: Colors.black87.withOpacity(.6)
-      // ),
-      child: const Center(child:  ImageAssetsView(imgUrl: AppImages.quranbook,opacity:  AlwaysStoppedAnimation(.7),hight: 120,width: 150, ))
-      );
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(10),
+            color: Colors.black87.withOpacity(.5)),
+        height: 140,
+        width: 160,
+        child: Transform(
+          alignment: Alignment.center,
+          transform:isodd? Matrix4.rotationY(0) :Matrix4.rotationY(math.pi),
+          child: const Center(
+              child: ImageAssetsView(
+            imgUrl: AppImages.quranbook,
+            opacity: AlwaysStoppedAnimation(.7),
+            hight: 120,
+            width: 150,
+          )),
+        ));
   }
 }
-
-
 
 class QuranBottomSheet extends StatelessWidget {
   const QuranBottomSheet({super.key});

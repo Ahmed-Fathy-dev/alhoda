@@ -44,11 +44,10 @@ class QuranContentPage extends HookConsumerWidget {
                   children: [
                     QuranTobStackSheet(
                       juzzName: quranState.data[index].juzz?.name,
-                      pageNumber: index+1,
+                      pageNumber: index + 1,
                       suraName: quranState.data[index].sura?.name,
+                      isodd: (index + 1).isOdd,
                     ),
-                    
-                    
                     const QuranBottomSheet()
                   ],
                 ),
