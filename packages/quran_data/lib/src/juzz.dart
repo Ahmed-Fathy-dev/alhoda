@@ -6,6 +6,7 @@ const juzzList = <JuzzModel>[
     name: 'الأول',
     hezbCollection: HezbCollection(
         firstHezb: HezbModel(
+          name: 'الحزب الاول',
           id: 1,
           page: 1,
           part: PartCollection(
@@ -24,6 +25,7 @@ const juzzList = <JuzzModel>[
           ),
         ),
         secondHezb: HezbModel(
+          name: 'الحزب الثاني',
           id: 2,
           page: 11,
           part: PartCollection(
@@ -52,6 +54,7 @@ const juzzList = <JuzzModel>[
     name: 'الثاني',
     hezbCollection: HezbCollection(
         firstHezb: HezbModel(
+          name: 'الحزب الثالث',
           id: 3,
           page: 22,
           part: PartCollection(
@@ -70,6 +73,7 @@ const juzzList = <JuzzModel>[
           ),
         ),
         secondHezb: HezbModel(
+          name: 'الحزب الرابع',
           id: 4,
           page: 32,
           part: PartCollection(
@@ -98,7 +102,8 @@ const juzzList = <JuzzModel>[
     name: 'الثالث',
     hezbCollection: HezbCollection(
         firstHezb: HezbModel(
-          id: 3,
+          name: 'الحزب الخامس',
+          id: 5,
           page: 42,
           part: PartCollection(
             quarterHezb: PartModel(
@@ -116,6 +121,7 @@ const juzzList = <JuzzModel>[
           ),
         ),
         secondHezb: HezbModel(
+          name: 'الحزب السادس',
           id: 6,
           page: 51,
           part: PartCollection(
@@ -144,6 +150,7 @@ const juzzList = <JuzzModel>[
     name: 'الرابع',
     hezbCollection: HezbCollection(
         firstHezb: HezbModel(
+          name: 'الحزب السابع',
           id: 7,
           page: 62,
           part: PartCollection(
@@ -162,6 +169,7 @@ const juzzList = <JuzzModel>[
           ),
         ),
         secondHezb: HezbModel(
+          name: 'الحزب الثامن',
           id: 8,
           page: 72,
           part: PartCollection(
