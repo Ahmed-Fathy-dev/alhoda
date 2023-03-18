@@ -1,3 +1,4 @@
+import 'package:alhoda/src/app/features/home/children/pray_times/views/pages/test.dart';
 import 'package:alhoda/src/core/configs/Routers/routes.dart';
 import 'package:alhoda/src/core/constants/enums/widgets_enums.dart';
 import 'package:alhoda/src/utilities/extensions_methods/widgets_ex_method.dart';
@@ -72,7 +73,9 @@ class _CategoriesSection extends StatelessWidget {
             CategoryItem(
                 catName: HomeStr.prayDatesString,
                 imgUrl: AppImages.prayTimesCat,
-                onTap: () {}),
+                onTap: () {
+                  context.push(PrayerTimeView());
+                }),
             CategoryItem(
                 catName: HomeStr.zekrString,
                 imgUrl: AppImages.azkarCat,
