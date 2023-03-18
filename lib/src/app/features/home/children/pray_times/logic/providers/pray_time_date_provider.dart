@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:alhoda/src/app/features/home/children/pray_times/logic/model/prayer_time_to_json.dart';
+import 'package:alhoda/src/app/features/home/children/pray_times/logic/model/pray_time_to_json.dart';
 import 'package:alhoda/src/app/features/home/children/pray_times/logic/model/pray_time_model.dart';
 import 'package:alhoda/src/app/features/home/children/pray_times/logic/repo/pray_time_repo.dart';
 import 'package:alhoda/src/utilities/logger_util.dart';

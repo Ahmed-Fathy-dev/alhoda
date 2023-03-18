@@ -4,7 +4,7 @@ import 'package:alhoda/src/app/features/home/children/pray_times/logic/repo/pray
 import 'package:alhoda/src/utilities/logger_util.dart';
 import 'package:riverpod/riverpod.dart';
 import '../model/pray_time_calender.dart';
-import '../model/prayer_time_to_json.dart';
+import '../model/pray_time_to_json.dart';
 
 final asyncPrayCalenderProvider = AsyncNotifierProviderFamily<PrayerCalenderNotifier,
     List<PrayCalenderModel>,PrayerTimeToJson>(PrayerCalenderNotifier.new);
