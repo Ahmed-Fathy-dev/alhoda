@@ -1,4 +1,4 @@
-import 'package:alhoda/src/app/features/home/children/pray_times/views/pages/test.dart';
+import 'package:alhoda/src/app/features/home/children/pray_times/views/pages/prayer_time_view.dart';
 import 'package:alhoda/src/core/configs/Routers/routes.dart';
 import 'package:alhoda/src/core/constants/enums/widgets_enums.dart';
 import 'package:alhoda/src/utilities/extensions_methods/widgets_ex_method.dart';
@@ -30,6 +30,7 @@ class _HomeContentBody extends StatelessWidget {
     return Stack(
       children: [
         BgImageView(
+          image: AppImages.bgGreen,
           hight: MediaQuery.of(context).size.height,
           width: MediaQuery.of(context).size.width,
           fit: BoxFit.fill,
@@ -74,7 +75,8 @@ class _CategoriesSection extends StatelessWidget {
                 catName: HomeStr.prayDatesString,
                 imgUrl: AppImages.prayTimesCat,
                 onTap: () {
-                  context.push(PrayerTimeView());
+                  context.push(
+                    const PrayerTimeView());
                 }),
             CategoryItem(
                 catName: HomeStr.zekrString,
@@ -95,11 +97,4 @@ class _CategoriesSection extends StatelessWidget {
   }
 }
 
-// class _MainCategories extends StatelessWidget {
-//   const _MainCategories();
 
-//   @override
-//   Widget build(BuildContext context) {
-//     return Container();
-//   }
-// }

@@ -370,7 +370,7 @@ class Params extends Equatable {
       ];
 }
 
-@JsonSerializable(createToJson: false)
+@JsonSerializable(createToJson: true)
 class Timings extends Equatable {
   const Timings({
     required this.fajr,
@@ -421,6 +421,8 @@ class Timings extends Equatable {
 
   factory Timings.fromJson(Map<String, dynamic> json) =>
       _$TimingsFromJson(json);
+
+  Map<String, dynamic> toJson() => _$TimingsToJson(this);
 
   @override
   List<Object?> get props => [

@@ -38,6 +38,8 @@ dependencies:
   dio: ^5.0.2
   geolocator: ^9.0.2
   geocoding: ^2.1.0
+  percent_indicator: ^4.2.3
+ 
 
   
 

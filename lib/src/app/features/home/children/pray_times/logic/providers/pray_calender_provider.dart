@@ -6,7 +6,7 @@ import 'package:riverpod/riverpod.dart';
 import '../model/pray_time_calender.dart';
 import '../model/pray_time_to_json.dart';
 
-final asyncPrayCalenderProvider = AsyncNotifierProviderFamily<PrayerCalenderNotifier,
+final PrayCalenderProvider = AsyncNotifierProviderFamily<PrayerCalenderNotifier,
     List<PrayCalenderModel>,PrayerTimeToJson>(PrayerCalenderNotifier.new);
 
 class PrayerCalenderNotifier extends FamilyAsyncNotifier<List<PrayCalenderModel>, PrayerTimeToJson> {

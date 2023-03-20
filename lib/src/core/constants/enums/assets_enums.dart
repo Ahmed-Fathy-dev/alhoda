@@ -12,7 +12,8 @@ enum AppImages {
   separator(name: 'separator'),
   madina(name: 'madina'),
   mecca(name: 'mecca'),
-  quranbook(name:'quran_icon')
+  quranbook(name:'quran_icon'),
+  prayerTime(name:"prayer_time"),
   ;
 
   final String name;

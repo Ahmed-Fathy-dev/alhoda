@@ -46,8 +46,9 @@ class BgImageView extends ImageAssetsView {
     required double hight,
     required double width,
     required BoxFit fit,
+    required AppImages image, 
   }) : super(
-          imgUrl: AppImages.bgGreen,
+          imgUrl: image,
           hight: hight,
           width: width,
           fit: fit,

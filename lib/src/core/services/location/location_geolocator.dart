@@ -31,9 +31,9 @@ class LocationByCordinates {
         desiredAccuracy: LocationAccuracy.high);
   }
 
-  Future<String?> getCountryFromCord(double latitude, double longitude) async {
+  Future<String?> getCountryFromCord(
+      double latitude, double longitude) async {
     try {
-      
       List<Placemark> placemarks =
           await placemarkFromCoordinates(latitude, longitude);
       final country = placemarks[0].country;
