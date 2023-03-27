@@ -1,4 +1,5 @@
 import '../../core/constants/enums/assets_enums.dart';
+import '../../core/constants/enums/lottie_enum.dart';
 
 extension GetFullPath on AppImages {
   String get fullPathPng => 'assets/images/$name.png';
@@ -29,4 +30,6 @@ extension ParseFromInt on int {
     }
   }
 }
-
+extension GetLottieFullPath on LottieAnimation {
+  String get fullpath => "assets/animations/$name.json";
+}

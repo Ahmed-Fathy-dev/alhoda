@@ -1,9 +1,14 @@
+import 'package:alhoda/src/app/components/animation/lottie_animation.dart';
+import 'package:alhoda/src/app/components/widgets/loading.dart';
+import 'package:alhoda/src/app/features/home/children/pray_times/logic/providers/getting_location_provider.dart';
 import 'package:alhoda/src/app/features/home/children/pray_times/views/pages/prayer_time_view.dart';
 import 'package:alhoda/src/core/configs/Routers/routes.dart';
+import 'package:alhoda/src/core/constants/enums/response_status.dart';
 import 'package:alhoda/src/core/constants/enums/widgets_enums.dart';
 import 'package:alhoda/src/utilities/extensions_methods/widgets_ex_method.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../../../../../core/configs/Routers/route_name.dart';
 import '../../../../../core/constants/Strings/home_strings.dart';
@@ -71,13 +76,32 @@ class _CategoriesSection extends StatelessWidget {
                 catName: HomeStr.hadethString,
                 imgUrl: AppImages.hadethCat,
                 onTap: () {}),
-            CategoryItem(
-                catName: HomeStr.prayDatesString,
-                imgUrl: AppImages.prayTimesCat,
-                onTap: () {
-                  context.push(
-                    const PrayerTimeView());
-                }),
+            Consumer(
+              builder: (_, ref, __) {
+                ref.listen(locationProvider, (previous, next) {
+                  if (next.status == ResponseStatus.loading) {
+                    showDialog(
+                        context: context,
+                        builder: (_) {
+                          return const LoadingWidget();
+                        });
+                  }
+                  if (next.status == ResponseStatus.success) {
+                    context.pop();
+                  }
+                });
+                return CategoryItem(
+                    catName: HomeStr.prayDatesString,
+                    imgUrl: AppImages.prayTimesCat,
+                    onTap: () {
+                      // context.push(
+                      //   const PrayerTimeView());
+                      ref
+                          .read(locationProvider.notifier)
+                          .setPositionState(context);
+                    });
+              },
+            ),
             CategoryItem(
                 catName: HomeStr.zekrString,
                 imgUrl: AppImages.azkarCat,
@@ -96,5 +120,3 @@ class _CategoriesSection extends StatelessWidget {
     );
   }
 }
-
-

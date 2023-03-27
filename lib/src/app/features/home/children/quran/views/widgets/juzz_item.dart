@@ -71,7 +71,7 @@ class HezbCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Table(
       columnWidths: const {
-        0:FlexColumnWidth(1.8),
+        0:FlexColumnWidth(2.5),
         1: FlexColumnWidth(1),
         2: FlexColumnWidth(1),
         3:FlexColumnWidth(1)

@@ -2,13 +2,15 @@ import 'package:alhoda/src/app/features/home/views/components/header_section.dar
 import 'package:alhoda/src/core/constants/enums/assets_enums.dart';
 import 'package:alhoda/src/utilities/extensions_methods/widgets_ex_method.dart';
 import 'package:flutter/material.dart';
-import '../../logic/model/pray_time_model.dart';
+import 'package:geolocator/geolocator.dart';
 import 'schedule_widget.dart';
 
 class PrayTimeStack extends StatelessWidget {
-  const PrayTimeStack({
+const PrayTimeStack({
+    
     super.key, 
   });
+
   @override
   Widget build(BuildContext context) {
     return Stack(

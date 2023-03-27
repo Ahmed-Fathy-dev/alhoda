@@ -7,17 +7,15 @@ import 'package:alhoda/src/app/features/home/children/pray_times/logic/repo/pray
 import 'package:alhoda/src/utilities/logger_util.dart';
 import 'package:riverpod/riverpod.dart';
 
-final PrayTimeProvider = AsyncNotifierProviderFamily<PayerTimeQpNotifier,
+final prayTimeProvider = AsyncNotifierProviderFamily<PayerTimeQpNotifier,
     PrayerTimeModel, PrayerTimeToJson>(PayerTimeQpNotifier.new);
 
 class PayerTimeQpNotifier
     extends FamilyAsyncNotifier<PrayerTimeModel, PrayerTimeToJson> {
-
-      
   Future<PrayerTimeModel> _fetchPayerTime(PrayerTimeToJson prayerParm) async {
     final repo = ref.watch(prayTimeRepoProvider);
     final response = await repo.getPraytime(prayerParm);
-    logger.wtf(response,"from Api");
+    logger.wtf(response, "from Api");
     return response.data!;
   }
 

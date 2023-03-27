@@ -211,3 +211,13 @@ extension DurationToTime on Duration {
     return '$hh:$mm:$ss';
   }
 }
+
+extension DurationString on int {
+  String get durationString {
+    final duration = this;
+    final hh = ((duration / 60) % 60).toString().padLeft(2, '0');
+    final minutes = ((duration / 60) % 60).floor().toString().padLeft(2, '0');
+    final seconds = (duration % 60).floor().toString().padLeft(2, '0');
+    return '$hh$minutes:$seconds';
+  }
+}

@@ -4,6 +4,9 @@ extension NavigatorRoute on BuildContext {
   void pushName(String routeName, {arguments}) {
     Navigator.pushNamed(this, '/$routeName', arguments: arguments);
   }
+  void pop() {
+    Navigator.pop(this);
+  }
 
   void push(Widget page) {
     Navigator.push(
