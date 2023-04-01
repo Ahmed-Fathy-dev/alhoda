@@ -15,12 +15,14 @@ class InitialFile {
   }
   Future call() async {
     await EasyLocalization.ensureInitialized();
-    await Hive.initFlutter();
-    Hive.registerAdapter(QuranResponseAdapter());
-    Hive.registerAdapter(QuranModelAdapter());
-    Hive.registerAdapter(JuzzMAdapter());
-    Hive.registerAdapter(HezbMAdapter());
-    Hive.registerAdapter(SuraMAdapter());
+
+    
+    // await Hive.initFlutter();
+    // Hive.registerAdapter(QuranResponseAdapter());
+    // Hive.registerAdapter(QuranModelAdapter());
+    // Hive.registerAdapter(JuzzMAdapter());
+    // Hive.registerAdapter(HezbMAdapter());
+    // Hive.registerAdapter(SuraMAdapter());
     // await InjectorFile().injectorFile();
   }
 }

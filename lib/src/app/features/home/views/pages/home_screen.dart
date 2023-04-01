@@ -2,9 +2,12 @@ import 'package:alhoda/src/app/components/animation/lottie_animation.dart';
 import 'package:alhoda/src/app/components/widgets/loading.dart';
 import 'package:alhoda/src/app/features/home/children/pray_times/logic/providers/getting_location_provider.dart';
 import 'package:alhoda/src/app/features/home/children/pray_times/views/pages/prayer_time_view.dart';
+import 'package:alhoda/src/app/features/home/children/quran/logic/providers/bookmark_provider.dart';
 import 'package:alhoda/src/core/configs/Routers/routes.dart';
 import 'package:alhoda/src/core/constants/enums/response_status.dart';
 import 'package:alhoda/src/core/constants/enums/widgets_enums.dart';
+import 'package:alhoda/src/core/services/storage/hive_storage_keys.dart';
+import 'package:alhoda/src/core/services/storage/storage_service_provider.dart';
 import 'package:alhoda/src/utilities/extensions_methods/widgets_ex_method.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
@@ -110,10 +113,15 @@ class _CategoriesSection extends StatelessWidget {
                 catName: HomeStr.qeblaString,
                 imgUrl: AppImages.qeblaCat,
                 onTap: () {}),
-            CategoryItem(
-                catName: HomeStr.settingString,
-                imgUrl: AppImages.settingsCat,
-                onTap: () {})
+            Consumer(builder: (_, ref, __) {
+              return CategoryItem(
+                  catName: HomeStr.settingString,
+                  imgUrl: AppImages.settingsCat,
+                  onTap: () {
+                    final box = ref.watch(storageServiceProvider);
+                    box.remove(HiveStorageKeys.indexKey);
+                  });
+            })
           ],
         ),
       ),

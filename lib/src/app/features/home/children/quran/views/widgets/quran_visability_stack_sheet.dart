@@ -1,4 +1,5 @@
 import 'package:alhoda/src/app/components/assets_comp/images_comp/image_assets.dart';
+import 'package:alhoda/src/app/features/home/children/quran/logic/providers/bookmark_provider.dart';
 import 'package:alhoda/src/app/features/home/children/quran/views/pages/quran_page.dart';
 import 'package:alhoda/src/core/configs/Routers/routes.dart';
 import 'package:alhoda/src/core/constants/enums/assets_enums.dart';
@@ -6,6 +7,7 @@ import 'package:alhoda/src/utilities/extensions_methods/app_extensions_m.dart';
 import 'package:alhoda/src/utilities/extensions_methods/data_ext.dart';
 import 'package:alhoda/src/utilities/extensions_methods/widgets_ex_method.dart';
 import 'package:flutter/material.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'dart:math' as math;
 
 import '../../../../../../../core/configs/Routers/route_name.dart';
@@ -15,7 +17,8 @@ class QuranTobStackSheet extends StatelessWidget {
       {super.key,
       required this.juzzName,
       required this.pageNumber,
-      required this.suraName, required this.isodd});
+      required this.suraName,
+      required this.isodd});
 
   final String? juzzName;
   final int pageNumber;
@@ -54,7 +57,7 @@ class QuranTobStackSheet extends StatelessWidget {
           ),
         ),
         35.0.sBox(SType.h),
-         MidStackQuraanSheet(isodd: isodd)
+        MidStackQuraanSheet(isodd: isodd)
       ],
     );
   }
@@ -73,7 +76,7 @@ class MidStackQuraanSheet extends StatelessWidget {
         width: 160,
         child: Transform(
           alignment: Alignment.center,
-          transform:isodd? Matrix4.rotationY(0) :Matrix4.rotationY(math.pi),
+          transform: isodd ? Matrix4.rotationY(0) : Matrix4.rotationY(math.pi),
           child: const Center(
               child: ImageAssetsView(
             imgUrl: AppImages.quranbook,
@@ -85,11 +88,14 @@ class MidStackQuraanSheet extends StatelessWidget {
   }
 }
 
-class QuranBottomSheet extends StatelessWidget {
-  const QuranBottomSheet({super.key});
+class QuranBottomSheet extends ConsumerWidget {
+  const QuranBottomSheet(
+      {required this.onBookmarkTap, required this.index, super.key});
+  final void Function()? onBookmarkTap;
+  final int index;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return Container(
       color: Colors.black87.withOpacity(.8),
       height: 120,
@@ -101,13 +107,16 @@ class QuranBottomSheet extends StatelessWidget {
             children: [
               CustomInkWellWithIcon(
                 name: "حفظ علامة",
-                onTap: () {},
+                onTap: () {
+                  ref.read(bookmarkProvider.notifier).setBookmarkStatus(index);
+                  
+                },
                 icon: Icons.bookmark,
               ),
               const Divider(),
               CustomInkWellWithIcon(
                 name: "انتقال الي علامة",
-                onTap: () {},
+                onTap: onBookmarkTap,
                 icon: Icons.move_to_inbox_sharp,
               ),
             ],
