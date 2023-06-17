@@ -89,10 +89,12 @@ class MidStackQuraanSheet extends StatelessWidget {
 }
 
 class QuranBottomSheet extends ConsumerWidget {
-  const QuranBottomSheet(
-      {required this.onBookmarkTap, required this.index, super.key});
+  const QuranBottomSheet( 
+      {required this.onSaveTap,
+      required this.onBookmarkTap,  super.key});
   final void Function()? onBookmarkTap;
-  final int index;
+  
+  final void Function()? onSaveTap;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -107,10 +109,9 @@ class QuranBottomSheet extends ConsumerWidget {
             children: [
               CustomInkWellWithIcon(
                 name: "حفظ علامة",
-                onTap: () {
-                  ref.read(bookmarkProvider.notifier).setBookmarkStatus(index);
-                  
-                },
+                onTap: 
+                  onSaveTap
+                ,
                 icon: Icons.bookmark,
               ),
               const Divider(),

@@ -31,7 +31,7 @@ class BookmarkNotifier extends Notifier<int?> {
 
   @override
   build() {
-    
+  
     return getBookMarkStatus();
   }
 }

@@ -1,7 +1,11 @@
 
+import 'package:alhoda/src/utilities/extensions_methods/widgets_ex_method.dart';
 import 'package:flutter/material.dart';
 
-import '../widgets/pray_time_stack.dart';
+import '../../../../../../../core/constants/enums/assets_enums.dart';
+import '../../../../views/components/header_section.dart';
+import '../widgets/schedule_widget.dart';
+
 
 class PrayerTimeView  extends StatelessWidget {
   
@@ -9,11 +13,20 @@ class PrayerTimeView  extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
-    return const Scaffold(
-      
-         body:   PrayTimeStack()
-         
+    return Stack(
+      children: [
+        BgImageView(
+            hight: MediaQuery.of(context).size.height,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.fill,
+            image: AppImages.prayerTime),
+        Column(
+          children: [
+            120.0.sBox(SType.h),
+            const ScheduleWidget(),
+          ],
+        ),
+      ],
     );
   }
 }

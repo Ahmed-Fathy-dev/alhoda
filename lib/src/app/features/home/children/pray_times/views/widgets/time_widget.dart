@@ -9,6 +9,8 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 
+
+// TODO: Pray time animation when remaining time zero 
 class TimeWidget extends HookConsumerWidget {
   const TimeWidget({
     super.key,

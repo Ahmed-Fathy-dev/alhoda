@@ -46,7 +46,7 @@ class LocationNotifiers extends Notifier<PositionState> {
     // return position;
   }
 
-  void setPositionState(BuildContext ctx) async {
+  void setPositionState(BuildContext ctx,Widget widget) async {
     state = state.copywith(status: ResponseStatus.loading);
     final position = await _getPosition();
     logger.wtf(position, "From Location Provider ");
@@ -56,7 +56,7 @@ class LocationNotifiers extends Notifier<PositionState> {
       state =
           state.copywith(position: position, status: ResponseStatus.success);
           if(ctx.mounted ){
-                ctx.push( const PrayerTimeView());
+                ctx.push( widget);
           }
       
     }

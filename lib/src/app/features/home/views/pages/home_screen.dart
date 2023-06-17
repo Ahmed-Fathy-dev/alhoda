@@ -2,6 +2,7 @@ import 'package:alhoda/src/app/components/animation/lottie_animation.dart';
 import 'package:alhoda/src/app/components/widgets/loading.dart';
 import 'package:alhoda/src/app/features/home/children/pray_times/logic/providers/getting_location_provider.dart';
 import 'package:alhoda/src/app/features/home/children/pray_times/views/pages/prayer_time_view.dart';
+import 'package:alhoda/src/app/features/home/children/qebla/views/pages/qibla_view.dart';
 import 'package:alhoda/src/app/features/home/children/quran/logic/providers/bookmark_provider.dart';
 import 'package:alhoda/src/core/configs/Routers/routes.dart';
 import 'package:alhoda/src/core/constants/enums/response_status.dart';
@@ -101,7 +102,7 @@ class _CategoriesSection extends StatelessWidget {
                       //   const PrayerTimeView());
                       ref
                           .read(locationProvider.notifier)
-                          .setPositionState(context);
+                          .setPositionState(context, const PrayerTimeView());
                     });
               },
             ),
@@ -109,10 +110,28 @@ class _CategoriesSection extends StatelessWidget {
                 catName: HomeStr.zekrString,
                 imgUrl: AppImages.azkarCat,
                 onTap: () {}),
-            CategoryItem(
-                catName: HomeStr.qeblaString,
-                imgUrl: AppImages.qeblaCat,
-                onTap: () {}),
+            Consumer(builder: (_, ref, __) {
+              ref.listen(locationProvider, (previous, next) {
+                if (next.status == ResponseStatus.loading) {
+                  showDialog(
+                      context: context,
+                      builder: (_) {
+                        return const LoadingWidget();
+                      });
+                }
+                if (next.status == ResponseStatus.success) {
+                  context.pop();
+                }
+              });
+                return CategoryItem(
+                    catName: HomeStr.qeblaString,
+                    imgUrl: AppImages.qeblaCat,
+                    onTap: () {
+                      ref.read(locationProvider.notifier)
+                          .setPositionState(context, const QiblaView());
+                    });
+              }
+            ),
             Consumer(builder: (_, ref, __) {
               return CategoryItem(
                   catName: HomeStr.settingString,

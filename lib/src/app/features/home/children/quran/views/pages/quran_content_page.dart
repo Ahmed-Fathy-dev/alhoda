@@ -26,8 +26,8 @@ class QuranContentPage extends HookConsumerWidget {
     });
 
     final pageC = usePageController(initialPage: quranState.index!);
-    
     return Scaffold(
+      
       body: PageView.builder(
         controller: pageC,
         itemBuilder: (BuildContext context, int index) => InkWell(
@@ -41,11 +41,14 @@ class QuranContentPage extends HookConsumerWidget {
                 imgUrl: quranState.data[index].page,
               ),
               Visibility(
-                  visible: false,
-                  child: const Icon(
-                    Icons.bookmark,
-                    color: Colors.red,
-                    size: 30,
+                  visible: index == bookMarkedPage,
+                  child: Container(
+                    alignment: Alignment.topLeft,
+                    child: Icon(
+                      Icons.bookmark,
+                      color: Colors.red.withOpacity(0.4),
+                      size: 60,
+                    ),
                   )),
               Visibility(
                 visible: tapStatus.value,
@@ -59,15 +62,25 @@ class QuranContentPage extends HookConsumerWidget {
                       isodd: (index + 1).isOdd,
                     ),
                     QuranBottomSheet(
-                        index: index,
-                        onBookmarkTap: bookMarkedPage == null
-                            ? null
-                            : () {
-                                final newPage = ref.refresh(bookmarkProvider);
-                                pageC.animateToPage(newPage!,
-                                    duration: const Duration(milliseconds: 200),
-                                    curve: Curves.bounceIn);
-                              })
+                      onBookmarkTap: bookMarkedPage == null
+                          ? null
+                          : () {
+                              final newPage = ref.refresh(bookmarkProvider);
+                              pageC.animateToPage(newPage!,
+                                  duration: const Duration(milliseconds: 200),
+                                  curve: Curves.bounceIn);
+                            },
+                      onSaveTap: () {
+                       
+                        ref
+                            .read(bookmarkProvider.notifier)
+                            .setBookmarkStatus(index);
+                        final newPage = ref.refresh(bookmarkProvider);
+                        pageC.animateToPage(newPage!,
+                            duration: const Duration(milliseconds: 200),
+                            curve: Curves.bounceIn);
+                      },
+                    )
                   ],
                 ),
               )
