@@ -1,5 +1,4 @@
 import 'package:alhoda/src/app/components/assets_comp/images_comp/image_assets.dart';
-import 'package:alhoda/src/app/features/home/children/quran/logic/providers/bookmark_provider.dart';
 import 'package:alhoda/src/app/features/home/children/quran/views/pages/quran_page.dart';
 import 'package:alhoda/src/core/configs/Routers/routes.dart';
 import 'package:alhoda/src/core/constants/enums/assets_enums.dart';
@@ -10,7 +9,6 @@ import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'dart:math' as math;
 
-import '../../../../../../../core/configs/Routers/route_name.dart';
 
 class QuranTobStackSheet extends StatelessWidget {
   const QuranTobStackSheet(

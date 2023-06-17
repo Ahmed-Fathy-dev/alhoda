@@ -1,9 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:hive_flutter/adapters.dart';
 
-import '../app/features/home/children/quran/logic/model/quran_model_res.dart';
 
 class InitialFile {
   InitialFile() {

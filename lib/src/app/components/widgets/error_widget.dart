@@ -1,10 +1,8 @@
-import 'dart:async';
 
 import 'package:alhoda/src/app/features/home/views/pages/home_screen.dart';
 import 'package:alhoda/src/core/configs/Routers/routes.dart';
 import 'package:alhoda/src/core/services/api/http_exception.dart';
 import 'package:flutter/material.dart';
-import 'package:geolocator/geolocator.dart';
 
 /// Default error view widget
 class ErrorsWidget extends StatelessWidget {
@@ -83,7 +81,7 @@ class LocationErrorWidget extends StatelessWidget {
         onTap: ()  {
           onRetry;
         },
-        child: Text("asyncError.error"),
+        child: const Text("asyncError.error"),
       ),
     );
   }

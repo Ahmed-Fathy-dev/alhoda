@@ -185,7 +185,7 @@ extension ExtOnTiming on Timings {
   ) {
     final spilitTime = value.split(":");
     final dateTimeParser = DateTime.now().copyWith(
-        hour: int.parse(spilitTime[0]), minute: int.parse(spilitTime[1]));
+      hour: int.parse(spilitTime[0]), minute: int.parse(spilitTime[1]));
 
     return dateTimeParser;
   }

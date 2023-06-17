@@ -4,7 +4,6 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../../../../../../../core/constants/Strings/home_strings.dart';
-import '../../logic/model/quran_model.dart';
 import '../../logic/providers/quran_provider.dart';
 import '../widgets/tabs_widget.dart';
 import 'tab_bar_view.dart';

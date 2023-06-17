@@ -1,14 +1,9 @@
 import 'package:alhoda/src/app/features/home/children/pray_times/logic/providers/getting_location_provider.dart';
 import 'package:alhoda/src/app/components/widgets/async_widget.dart';
 import 'package:alhoda/src/app/features/home/children/pray_times/views/widgets/time_widget.dart';
-import 'package:alhoda/src/app/features/home/views/pages/home_screen.dart';
-import 'package:alhoda/src/core/configs/Routers/routes.dart';
-import 'package:alhoda/src/core/constants/enums/response_status.dart';
 import 'package:alhoda/src/utilities/extensions_methods/app_extensions_m.dart';
 import 'package:alhoda/src/utilities/extensions_methods/widgets_ex_method.dart';
-import 'package:alhoda/src/utilities/logger_util.dart';
 import 'package:flutter/material.dart';
-import 'package:geolocator/geolocator.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
 
@@ -84,7 +79,7 @@ class CustomRowPreyTime extends StatelessWidget {
           width: context.mediaQSize.width - 150,
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20),
-              color: const Color(0xfff005d93)),
+              color: const Color(0xff005d93)),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [

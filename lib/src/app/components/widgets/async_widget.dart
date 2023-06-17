@@ -1,4 +1,3 @@
-import 'package:alhoda/src/app/components/animation/lottie_animation.dart';
 import 'package:alhoda/src/app/components/widgets/loading.dart';
 import 'package:alhoda/src/core/constants/enums/response_status.dart';
 import 'package:flutter/material.dart';

@@ -1,12 +1,9 @@
-import 'package:alhoda/src/app/components/animation/lottie_animation.dart';
 import 'package:alhoda/src/app/components/widgets/loading.dart';
 import 'package:alhoda/src/app/features/home/children/pray_times/logic/providers/getting_location_provider.dart';
 import 'package:alhoda/src/app/features/home/children/pray_times/views/pages/prayer_time_view.dart';
 import 'package:alhoda/src/app/features/home/children/qebla/views/pages/qibla_view.dart';
-import 'package:alhoda/src/app/features/home/children/quran/logic/providers/bookmark_provider.dart';
 import 'package:alhoda/src/core/configs/Routers/routes.dart';
 import 'package:alhoda/src/core/constants/enums/response_status.dart';
-import 'package:alhoda/src/core/constants/enums/widgets_enums.dart';
 import 'package:alhoda/src/core/services/storage/hive_storage_keys.dart';
 import 'package:alhoda/src/core/services/storage/storage_service_provider.dart';
 import 'package:alhoda/src/utilities/extensions_methods/widgets_ex_method.dart';

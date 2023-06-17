@@ -2,7 +2,6 @@ import 'package:alhoda/src/utilities/extensions_methods/app_extensions_m.dart';
 import 'package:alhoda/src/utilities/extensions_methods/widgets_ex_method.dart';
 import 'package:flutter/material.dart';
 import 'package:quran_data/quran_data.dart';
-import '../../../../../../../core/constants/enums/widgets_enums.dart';
 
 class JuzzItem extends StatelessWidget {
   const JuzzItem({

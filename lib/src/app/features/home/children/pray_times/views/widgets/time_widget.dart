@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'package:alhoda/src/app/components/animation/lottie_animation.dart';
 import 'package:alhoda/src/app/features/home/children/pray_times/logic/model/pray_count_down.dart';
 import 'package:alhoda/src/app/features/home/children/pray_times/logic/model/pray_time_model.dart';
 import 'package:alhoda/src/utilities/extensions_methods/app_extensions_m.dart';

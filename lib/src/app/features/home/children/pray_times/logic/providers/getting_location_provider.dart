@@ -1,11 +1,7 @@
 import 'dart:async';
-
-import 'package:alhoda/src/app/features/home/children/pray_times/views/pages/prayer_time_view.dart';
 import 'package:alhoda/src/core/configs/Routers/routes.dart';
 import 'package:alhoda/src/core/constants/enums/response_status.dart';
-import 'package:alhoda/src/core/services/location/location_geolocator.dart';
 import 'package:alhoda/src/utilities/logger_util.dart';
-import 'package:dio/dio.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';

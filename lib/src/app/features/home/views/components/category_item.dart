@@ -3,7 +3,6 @@ import 'package:alhoda/src/utilities/extensions_methods/widgets_ex_method.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../../core/constants/enums/assets_enums.dart';
-import '../../../../../core/constants/enums/widgets_enums.dart';
 import '../../../../components/assets_comp/images_comp/image_assets.dart';
 
 class CategoryItem extends StatelessWidget {
